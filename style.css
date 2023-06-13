@@ -9,6 +9,11 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   text-align: justify;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 /*  */
@@ -305,6 +310,15 @@ li::before {
 }
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+}
+
+/* ///////////////////Sticky */
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
 }
 
 /* *************************************** */
