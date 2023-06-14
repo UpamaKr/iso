@@ -93,6 +93,13 @@ nav {
   padding-top: 32px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
