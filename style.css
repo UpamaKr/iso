@@ -158,11 +158,6 @@ ul {
   text-align: justify;
 }
 
-.hidden-box li {
-  /* add your CSS rules here */
-  color: #1a741a;
-}
-
 li::before {
   margin-right: 18px;
 }
@@ -198,7 +193,7 @@ li::before {
 .para-bottom-zero,
 .english-para-title {
   margin-bottom: 0 !important;
-  color: #1a741a;
+  color: #9243a6;
 }
 
 .para-top-bottom-zero {
@@ -231,7 +226,7 @@ li::before {
 }
 
 .hidden-box ul {
-  color: #444;
+  color: #1b091f;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -240,7 +235,7 @@ li::before {
   margin-bottom: 20px;
 }
 .hidden-box li {
-  color: #444;
+  color: #0a2e0a;
 }
 .hidden-box .translated-text {
   background-color: #1a741a;
@@ -476,19 +471,9 @@ li::before {
   .textA {
     font-size: 1.2rem;
   }
-  /* .btn-mobile-nav {
+  .btn-mobile-nav {
     display: block;
     z-index: 9999;
-    position: fixed;
-    top: 36px;
-    right: 36px;
-  } */
-  .icon-mobile-nav {
-    /* add your CSS rules here */
-    position: absolute;
-    top: 36px;
-    right: 36px;
-    transform: translate(-50%, -50%);
   }
   .header-container {
     max-width: 55rem;
@@ -603,6 +588,7 @@ li::before {
   .icon {
     width: 3rem;
     height: 3rem;
+    stroke: #862e9c;
   }
 }
 
