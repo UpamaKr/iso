@@ -471,9 +471,19 @@ li::before {
   .textA {
     font-size: 1.2rem;
   }
-  .btn-mobile-nav {
+  /* .btn-mobile-nav {
     display: block;
     z-index: 9999;
+    position: fixed;
+    top: 36px;
+    right: 36px;
+  } */
+  .icon-mobile-nav {
+    /* add your CSS rules here */
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    transform: translate(-50%, -50%);
   }
   .header-container {
     max-width: 55rem;
